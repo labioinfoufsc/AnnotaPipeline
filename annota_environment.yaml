@@ -4,9 +4,10 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python>=3.6.9
+  - python>=3.10
   - setuptools
   - pip
+  - typer>=0.12
   - bioconda::blast>=2.9.0
   - bioconda::interproscan>=5.52_86.0
   - bioconda::hmmer>=3.1b2
@@ -16,4 +17,4 @@ dependencies:
   - bioconda::augustus>=3.3.3
   - pip:
     - PyYAML==6.0
-    - git+https://github.com/bioinformatics-ufsc/AnnotaPipeline.git
+    - git+https://github.com/labioinfoufsc/AnnotaPipeline.git

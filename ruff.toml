@@ -1,0 +1,28 @@
+line-length = 80
+indent-width = 4
+target-version = "py312"
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[lint]
+select = [
+    "B",
+    "C4",
+    "E",
+    "F",
+    "I",
+    "PD",
+    "PIE",
+    "RET",
+    "RUF",
+    "SIM",
+    "UP",
+    "W",
+]
+ignore = ["E501"]
+
+[lint.per-file-ignores]
+"tests/**/*.py" = ["S101"]

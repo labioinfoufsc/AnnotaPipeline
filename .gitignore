@@ -1,0 +1,22 @@
+# Nextflow
+.nextflow/
+.nextflow.log*
+/work/
+/results/
+
+# Environments and caches
+.pixi/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.fast/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated pipeline files
+AnnotaPipeline_LogFile.log
+ids_with_no_annotations.txt
+
+# Local configuration
+.env
